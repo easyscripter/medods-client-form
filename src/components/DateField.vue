@@ -2,7 +2,6 @@
   <div class="DateField">
     <input
       type="date"
-      required
       :id="fieldName"
       name="inputField"
       :placeholder="fieldPlaceholder"
@@ -45,7 +44,7 @@ export default {
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }

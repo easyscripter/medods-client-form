@@ -2,7 +2,6 @@
   <div class="PhoneField">
     <input
       type="tel"
-      required
       :id="fieldName"
       name="inputField"
       placeholder="+7 (999) 555-55-55"
@@ -46,7 +45,7 @@ export default {
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }

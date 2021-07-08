@@ -1,7 +1,6 @@
 <template>
   <div class="AlteroField">
     <input
-      required
       :id="fieldName"
       name="inputField"
       :placeholder="fieldPlaceholder"
@@ -18,7 +17,6 @@
 export default {
   props: {
     value: {
-      type: String,
       required: true,
     },
     fieldName: {
@@ -44,9 +42,9 @@ export default {
   width: 100%;
   position: relative;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 40px;
   padding-right: 15px;
-  margin-bottom: 28px;
+  margin-bottom: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
@@ -87,7 +85,6 @@ input {
   &:focus ~ label,
   &:valid ~ label {
     top: -10px;
-    color: #39078d;
   }
 }
 
