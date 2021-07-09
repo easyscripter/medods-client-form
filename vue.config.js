@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: 'medods-client-form/'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/medods-client-form/'
+        : '/'
 }
